@@ -1,0 +1,85 @@
+/* 1. Fondo rosa suave y tipo de letra lindo para toda la página */
+body {
+  background-color: #fff0f5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #4a4a4a;
+  margin: 30px;
+}
+
+/* 2. Títulos en rosa más fuerte y centrados */
+h1 {
+  color: #d81b60;
+  text-align: center;
+  font-size: 32px;
+}
+
+h2 {
+  color: #c2185b;
+  border-bottom: 2px dashed #f48fb1;
+  padding-bottom: 5px;
+}
+
+/* 3. La imagen con bordes redondeados y sombra suave */
+img {
+  width: 220px;
+  border-radius: 20px;
+  box-shadow: 0px 8px 15px rgba(244, 143, 177, 0.4);
+  display: block;
+  margin: 20px 0;
+}
+
+/* 4. Tabla estética estilo "coquette" */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+th {
+  background-color: #f8bbd0;
+  color: #880e4f;
+  padding: 12px;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #f8bbd0;
+}
+
+/* 5. Formulario lindo con bordes redondeados */
+form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  border: 2px solid #f48fb1;
+  max-width: 400px;
+}
+
+input,
+textarea {
+  width: 90%;
+  padding: 8px;
+  border: 1px solid #f48fb1;
+  border-radius: 8px;
+  outline: none;
+  background-color: #fff8fa;
+}
+
+/* 6. Botón de Enviar tipo caramelo */
+button {
+  background-color: #f06292;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ec407a;
+}
